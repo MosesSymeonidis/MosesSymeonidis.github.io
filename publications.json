@@ -1,0 +1,210 @@
+[
+  {
+    "year": 2025,
+    "title": "FakeInf: Selective Deep Neural Network Inference for Latency and Energy-Aware Model Serving Pipelines",
+    "authors": "D. Trihinas, M. Symeonides, N. Cleju, G. Pallis, M. D. Dikaiakos",
+    "venue": "18th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2025), Nantes, France, December 2025",
+    "type": "conference",
+    "awards": ["Best Paper"]
+  },
+  {
+    "year": 2025,
+    "title": "Automating Multi-Tenancy Performance Evaluation on Edge Compute Nodes",
+    "authors": "J. Georgiou, M. Symeonides, G. Pallis, M. D. Dikaiakos",
+    "venue": "IEEE International Conference on Edge Computing and Communications (IEEE EDGE), part of IEEE World Congress on SERVICES, Helsinki, Finland, July 2025",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2025,
+    "title": "From Benchmarking to Prediction: Energy Profiling of Industrial Systems Using Machine Learning",
+    "authors": "D. Kallis, M. Symeonides, M. D. Dikaiakos",
+    "venue": "30th IEEE Symposium on Computers and Communications (ISCC), Bologna, Italy, July 2025",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2025,
+    "title": "AtlasFL: A Federated Learning Workload Generator with Energy and Carbon Emission Support",
+    "authors": "M. Symeonides, D. Trihinas",
+    "venue": "3rd International Workshop on Testing Distributed Internet of Things Systems, 2025",
+    "type": "workshop",
+    "awards": []
+  },
+  {
+    "year": 2024,
+    "title": "Evaluating DL Model Scaling Trade-Offs During Inference via an Empirical Benchmark Analysis",
+    "authors": "D. Trihinas, P. Michael, M. Symeonides",
+    "venue": "Future Internet, Volume 16, 2024",
+    "type": "journal",
+    "awards": []
+  },
+  {
+    "year": 2024,
+    "title": "FedMon: A Federated Learning Monitoring Toolkit",
+    "authors": "M. Symeonides, D. Trihinas, F. Nikolaidis",
+    "venue": "IoT, Volume 5, 2024",
+    "type": "journal",
+    "awards": []
+  },
+  {
+    "year": 2024,
+    "title": "CarbonOracle: Automating Energy Mix & Renewable Energy Source Forecast Modeling for Carbon-Aware Micro Data Centers",
+    "authors": "M. Symeonides, N. Tsiopani, G. Maouris, D. Trihinas, G. Pallis, M. D. Dikaiakos",
+    "venue": "17th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2024), Sharjah, UAE, December 2024",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2024,
+    "title": "Towards Low-Cost and Energy-Aware Inference for EdgeAI Services via Model Swapping",
+    "authors": "D. Trihinas, P. Michael, M. Symeonides",
+    "venue": "12th IEEE International Conference on Cloud Engineering (IC2E 2024), September 2024",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2024,
+    "title": "Energy Modeling of Inference Workloads with AI Accelerators at the Edge: A Benchmarking Study",
+    "authors": "M. Kasioulis, M. Symeonides, G. Ioannou, G. Pallis, M. D. Dikaiakos",
+    "venue": "12th IEEE International Conference on Cloud Engineering (IC2E 2024), September 2024",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2023,
+    "title": "Towards Efficient Resource Allocation for Federated Learning in Virtualized Managed Environments",
+    "authors": "M. Symeonides, D. Trihinas, F. Nikolaidis",
+    "venue": "Future Internet, Volume 15, 2023",
+    "type": "journal",
+    "awards": ["Editor's Choice 2023"]
+  },
+  {
+    "year": 2023,
+    "title": "FedBed: Benchmarking Federated Learning over Virtualized Edge Testbeds",
+    "authors": "M. Symeonides, F. Nikolaidis, D. Trihinas, G. Pallis, M. D. Dikaiakos, A. Bilas",
+    "venue": "16th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2023), Messina, Italy, December 2023",
+    "type": "conference",
+    "awards": ["Best Paper"]
+  },
+  {
+    "year": 2023,
+    "title": "Energy-Aware Streaming Analytics Job Scheduling for Edge Computing",
+    "authors": "D. Trihinas, M. Symeonides, J. Georgiou, G. Pallis, M. D. Dikaiakos",
+    "venue": "14th IEEE International Conference on Cloud Computing Technology and Science (CloudCom 2023), Napoli, Italy, December 2023",
+    "type": "conference",
+    "awards": ["Best Paper"]
+  },
+  {
+    "year": 2023,
+    "title": "SparkEdgeEmu: An Emulation Framework for Edge-Enabled Apache Spark Deployments",
+    "authors": "M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos",
+    "venue": "Euro-Par 2023: Parallel Processing, Springer LNCS vol. 14100",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2022,
+    "title": "EQUALITY: Quality-Aware Intensive Analytics on the Edge",
+    "authors": "A. V. Michailidou, A. Gounaris, M. Symeonides, D. Trihinas",
+    "venue": "Information Systems, Volume 105, 2022",
+    "type": "journal",
+    "awards": []
+  },
+  {
+    "year": 2022,
+    "title": "5G-Slicer: An Emulator for Mobile IoT Applications Deployed over 5G Network Slices",
+    "authors": "M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos, C. Psomas, I. Krikidis",
+    "venue": "7th ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI 2022)",
+    "type": "conference",
+    "awards": ["Best Paper"]
+  },
+  {
+    "year": 2022,
+    "title": "BenchPilot: Repeatable & Reproducible Benchmarking for Edge Micro-DCs",
+    "authors": "J. Georgiou, M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos",
+    "venue": "27th IEEE Symposium on Computers and Communications (ISCC 2022)",
+    "type": "conference",
+    "awards": ["Best Student Paper"]
+  },
+  {
+    "year": 2022,
+    "title": "Demo: The RAINBOW Analytics Stack for the Fog Continuum",
+    "authors": "M. Symeonides, D. Trihinas, J. Georgiou, M. Kasioulis, G. Pallis, M. D. Dikaiakos, T. Toliopoulos, A. V. Michailidou, A. Gounaris",
+    "venue": "27th IEEE Symposium on Computers and Communications (ISCC 2022)",
+    "type": "demo",
+    "awards": []
+  },
+  {
+    "year": 2022,
+    "title": "Towards Energy Consumption and Carbon Footprint Testing for AI-driven IoT Services",
+    "authors": "D. Trihinas, L. Thamsen, J. Beilharz, M. Symeonides",
+    "venue": "2nd International Workshop on Testing Distributed Internet of Things Systems, 2022",
+    "type": "workshop",
+    "awards": []
+  },
+  {
+    "year": 2022,
+    "title": "Demo: Emulating 5G-Ready Mobile IoT Services",
+    "authors": "M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos",
+    "venue": "7th ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI 2022)",
+    "type": "demo",
+    "awards": []
+  },
+  {
+    "year": 2020,
+    "title": "The ICARUS Ontology: A General Aviation Ontology Developed Using a Multi-Layer Approach",
+    "authors": "D. Stefanidis, C. Christodoulou, M. Symeonidis, G. Pallis, M. Dikaiakos, L. Pouis, K. Orphanou, F. Lampathaki, D. Alexandrou",
+    "venue": "10th International Conference on Web Intelligence, Mining and Semantics (WIMS 2020)",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2020,
+    "title": "Fogify: A Fog Computing Emulation Framework",
+    "authors": "M. Symeonides, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos",
+    "venue": "5th ACM/IEEE Symposium on Edge Computing (SEC 2020)",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2020,
+    "title": "Demo: Emulating Geo-Distributed Fog Services",
+    "authors": "M. Symeonides, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos",
+    "venue": "5th ACM/IEEE Symposium on Edge Computing (SEC 2020)",
+    "type": "demo",
+    "awards": ["Best Demo"]
+  },
+  {
+    "year": 2019,
+    "title": "Query-Driven Descriptive Analytics for IoT and Edge Computing",
+    "authors": "M. Symeonides, D. Trihinas, Z. Georgiou, G. Pallis, M. Dikaiakos",
+    "venue": "IEEE International Conference on Cloud Engineering (IC2E 2019)",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2018,
+    "title": "A Query-Driven Framework for Streaming Analytics in Edge Computing",
+    "authors": "Z. Georgiou, M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos",
+    "venue": "11th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2018), Zurich, December 2018",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2018,
+    "title": "PaaSport Semantic Model: An Ontology for a Platform-as-a-Service Semantically Interoperable Marketplace",
+    "authors": "N. Bassiliades, M. Symeonidis, P. Gouvas, E. Kontopoulos, G. Meditskos, I. Vlahavas",
+    "venue": "Data & Knowledge Engineering, Volume 113, 2018",
+    "type": "journal",
+    "awards": []
+  },
+  {
+    "year": 2017,
+    "title": "A Semantic Recommendation Algorithm for the PaaSport Platform-as-a-Service Marketplace",
+    "authors": "N. Bassiliades, M. Symeonidis, G. Meditskos, E. Kontopoulos, P. Gouvas, I. Vlahavas",
+    "venue": "Expert Systems with Applications, Volume 67, 2017",
+    "type": "journal",
+    "awards": []
+  }
+]
