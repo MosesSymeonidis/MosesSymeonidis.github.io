@@ -8,9 +8,9 @@
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
     :root {
-      --bg:       #0d1117;
-      --surface:  #161b22;
-      --border:   #21262d;
+      --bg:       #020408;
+      --surface:  #080c12;
+      --border:   #151b24;
       --accent:   #7c83fd;
       --accent2:  #a78bfa;
       --text:     #e6edf3;
@@ -32,7 +32,7 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(13,17,23,.92);
+      background: rgba(2,4,8,.95);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
       display: flex;
@@ -64,14 +64,9 @@
       width: 140px;
       height: 140px;
       border-radius: 50%;
-      background: linear-gradient(135deg, #7c83fd 0%, #a78bfa 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 3.5rem;
-      font-weight: 700;
       flex-shrink: 0;
       box-shadow: 0 0 0 4px var(--border), 0 0 40px rgba(124,131,253,.25);
+      object-fit: cover;
     }
     .hero-text h1 {
       font-size: 2.6rem;
@@ -303,7 +298,7 @@
   </nav>
 
   <div class="hero">
-    <div class="avatar">M</div>
+    <img class="avatar" src="https://avatars.githubusercontent.com/u/9702850?v=4" alt="Moysis Symeonides" />
     <div class="hero-text">
       <h1>Moysis Symeonides</h1>
       <div class="role">Postdoctoral Researcher &amp; Software Architect</div>
