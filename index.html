@@ -231,6 +231,18 @@
     }
     .pub-title { font-size: .95rem; font-weight: 600; }
     .pub-meta { font-size: .8rem; color: var(--muted); margin-top: .3rem; }
+    .pub-type {
+      font-size: .68rem; padding: .12rem .45rem; border-radius: 3px;
+      margin-left: .5rem; vertical-align: middle; white-space: nowrap;
+    }
+    .pub-type-journal  { background: rgba(22,163,74,.08);  color: #15803d; border: 1px solid rgba(22,163,74,.22); }
+    .pub-type-conf     { background: rgba(79,82,200,.08);  color: var(--accent); border: 1px solid rgba(79,82,200,.2); }
+    .pub-type-workshop { background: rgba(124,58,237,.08); color: var(--accent2); border: 1px solid rgba(124,58,237,.2); }
+    .pub-year {
+      font-size: .72rem; font-weight: 700; letter-spacing: 1px;
+      color: var(--muted); text-transform: uppercase;
+      margin: 1.25rem 0 .5rem; padding-left: .25rem;
+    }
 
     /* TIMELINE */
     .timeline { position: relative; padding-left: 1.5rem; }
@@ -327,7 +339,7 @@
 
     <div class="stats">
       <div class="stat"><div class="num">10+</div><div class="lbl">Years Experience</div></div>
-      <div class="stat"><div class="num">20+</div><div class="lbl">Publications</div></div>
+      <div class="stat"><div class="num">26</div><div class="lbl">Publications</div></div>
       <div class="stat"><div class="num">8+</div><div class="lbl">Best Paper Awards</div></div>
       <div class="stat"><div class="num">&#8364;196K+</div><div class="lbl">EU Funding Secured</div></div>
       <div class="stat"><div class="num">5+</div><div class="lbl">Students Mentored</div></div>
@@ -593,59 +605,157 @@
     <section id="publications">
       <div class="section-title">Publications</div>
 
-      <!-- 5 most recent always visible -->
+      <!-- ── 2025 (always visible) ─────────────────────────────── -->
+      <div class="pub-year">2025</div>
+
       <div class="pub">
         <div class="pub-title">FakeInf: Selective Deep Neural Network Inference for Latency and Energy-Aware Model Serving Pipelines <span class="award">Best Paper</span></div>
-        <div class="pub-meta">D. Trihinas, M. Symeonides, N. Cleju, G. Pallis, M. D. Dikaiakos &#8212; IEEE/ACM UCC 2025, Nantes, France</div>
+        <div class="pub-meta">D. Trihinas, M. Symeonides, N. Cleju, G. Pallis, M. D. Dikaiakos &#8212; 18th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2025), Nantes, France, December 2025<span class="pub-type pub-type-conf">Conference</span></div>
       </div>
 
       <div class="pub">
-        <div class="pub-title">CarbonOracle: Automating Energy Mix &amp; Renewable Energy Source Forecast Modeling for Carbon-Aware Micro Data Centers</div>
-        <div class="pub-meta">M. Symeonides et al. &#8212; IEEE/ACM UCC 2024, Sharjah, UAE</div>
+        <div class="pub-title">Automating Multi-Tenancy Performance Evaluation on Edge Compute Nodes</div>
+        <div class="pub-meta">J. Georgiou, M. Symeonides, G. Pallis, M. D. Dikaiakos &#8212; IEEE International Conference on Edge Computing and Communications (IEEE EDGE), part of IEEE World Congress on SERVICES, Helsinki, Finland, July 2025<span class="pub-type pub-type-conf">Conference</span></div>
       </div>
 
       <div class="pub">
-        <div class="pub-title">FedBed: Benchmarking Federated Learning over Virtualized Edge Testbeds <span class="award">2nd Best Paper</span></div>
-        <div class="pub-meta">M. Symeonides, F. Nikolaidis, D. Trihinas, G. Pallis, M. D. Dikaiakos, A. Bilas &#8212; IEEE/ACM UCC 2023, Messina, Italy</div>
+        <div class="pub-title">From Benchmarking to Prediction: Energy Profiling of Industrial Systems Using Machine Learning</div>
+        <div class="pub-meta">D. Kallis, M. Symeonides, M. D. Dikaiakos &#8212; 30th IEEE Symposium on Computers and Communications (ISCC), Bologna, Italy, July 2025<span class="pub-type pub-type-conf">Conference</span></div>
       </div>
 
       <div class="pub">
-        <div class="pub-title">Energy-Aware Streaming Analytics Job Scheduling for Edge Computing <span class="award">Best Paper</span></div>
-        <div class="pub-meta">D. Trihinas, M. Symeonides, J. Georgiou, G. Pallis, M. D. Dikaiakos &#8212; CloudCom 2023, Napoli, Italy</div>
+        <div class="pub-title">AtlasFL: A Federated Learning Workload Generator with Energy and Carbon Emission Support</div>
+        <div class="pub-meta">M. Symeonides, D. Trihinas &#8212; 3rd International Workshop on Testing Distributed Internet of Things Systems, 2025<span class="pub-type pub-type-workshop">Workshop</span></div>
       </div>
 
-      <div class="pub">
-        <div class="pub-title">Towards Efficient Resource Allocation for Federated Learning in Virtualized Managed Environments <span class="award">Editor's Choice 2023</span></div>
-        <div class="pub-meta">M. Symeonides, D. Trihinas, F. Nikolaidis &#8212; Future Internet, Volume 15, 2023</div>
-      </div>
+      <!-- ── accordion: 2024 and earlier ──────────────────────── -->
+      <div id="pub-more" style="overflow:hidden;max-height:0;transition:max-height .6s ease;">
 
-      <!-- accordion: older publications hidden by default -->
-      <div id="pub-more" style="overflow:hidden;max-height:0;transition:max-height .5s ease;">
+        <div class="pub-year">2024</div>
+
         <div class="pub">
-          <div class="pub-title">SparkEdgeEmu: An Emulation Framework for Edge-Enabled Apache Spark Deployments</div>
-          <div class="pub-meta">M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; Euro-Par 2023, LNCS vol 14100</div>
+          <div class="pub-title">Evaluating DL Model Scaling Trade-Offs During Inference via an Empirical Benchmark Analysis</div>
+          <div class="pub-meta">D. Trihinas, P. Michael, M. Symeonides &#8212; Future Internet, Volume 16, 2024<span class="pub-type pub-type-journal">Journal</span></div>
         </div>
 
         <div class="pub">
-          <div class="pub-title">5G-Slicer: An emulator for mobile IoT applications deployed over 5G network slices <span class="award">Best Paper</span></div>
-          <div class="pub-meta">M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos, C. Psomas, I. Krikidis &#8212; ACM/IEEE IoTDI 2022</div>
+          <div class="pub-title">FedMon: A Federated Learning Monitoring Toolkit</div>
+          <div class="pub-meta">M. Symeonides, D. Trihinas, F. Nikolaidis &#8212; IoT, Volume 5, 2024<span class="pub-type pub-type-journal">Journal</span></div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">CarbonOracle: Automating Energy Mix &amp; Renewable Energy Source Forecast Modeling for Carbon-Aware Micro Data Centers</div>
+          <div class="pub-meta">M. Symeonides, N. Tsiopani, G. Maouris, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; 17th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2024), Sharjah, UAE, December 2024<span class="pub-type pub-type-conf">Conference</span></div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">Towards Low-Cost and Energy-Aware Inference for EdgeAI Services via Model Swapping</div>
+          <div class="pub-meta">D. Trihinas, P. Michael, M. Symeonides &#8212; 12th IEEE International Conference on Cloud Engineering (IC2E 2024), September 2024<span class="pub-type pub-type-conf">Conference</span></div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">Energy Modeling of Inference Workloads with AI Accelerators at the Edge: A Benchmarking Study</div>
+          <div class="pub-meta">M. Kasioulis, M. Symeonides, G. Ioannou, G. Pallis, M. D. Dikaiakos &#8212; 12th IEEE International Conference on Cloud Engineering (IC2E 2024), September 2024<span class="pub-type pub-type-conf">Conference</span></div>
+        </div>
+
+        <div class="pub-year">2023</div>
+
+        <div class="pub">
+          <div class="pub-title">Towards Efficient Resource Allocation for Federated Learning in Virtualized Managed Environments <span class="award">Editor&#8217;s Choice 2023</span></div>
+          <div class="pub-meta">M. Symeonides, D. Trihinas, F. Nikolaidis &#8212; Future Internet, Volume 15, 2023<span class="pub-type pub-type-journal">Journal</span></div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">FedBed: Benchmarking Federated Learning over Virtualized Edge Testbeds <span class="award">Best Paper</span></div>
+          <div class="pub-meta">M. Symeonides, F. Nikolaidis, D. Trihinas, G. Pallis, M. D. Dikaiakos, A. Bilas &#8212; 16th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2023), Messina, Italy, December 2023<span class="pub-type pub-type-conf">Conference</span></div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">Energy-Aware Streaming Analytics Job Scheduling for Edge Computing <span class="award">Best Paper</span></div>
+          <div class="pub-meta">D. Trihinas, M. Symeonides, J. Georgiou, G. Pallis, M. D. Dikaiakos &#8212; 14th IEEE International Conference on Cloud Computing Technology and Science (CloudCom 2023), Napoli, Italy, December 2023<span class="pub-type pub-type-conf">Conference</span></div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">SparkEdgeEmu: An Emulation Framework for Edge-Enabled Apache Spark Deployments</div>
+          <div class="pub-meta">M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; Euro-Par 2023: Parallel Processing, Springer LNCS vol. 14100<span class="pub-type pub-type-conf">Conference</span></div>
+        </div>
+
+        <div class="pub-year">2022</div>
+
+        <div class="pub">
+          <div class="pub-title">EQUALITY: Quality-Aware Intensive Analytics on the Edge</div>
+          <div class="pub-meta">A. V. Michailidou, A. Gounaris, M. Symeonides, D. Trihinas &#8212; Information Systems, Volume 105, 2022<span class="pub-type pub-type-journal">Journal</span></div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">5G-Slicer: An Emulator for Mobile IoT Applications Deployed over 5G Network Slices <span class="award">Best Paper</span></div>
+          <div class="pub-meta">M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos, C. Psomas, I. Krikidis &#8212; 7th ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI 2022)<span class="pub-type pub-type-conf">Conference</span></div>
         </div>
 
         <div class="pub">
           <div class="pub-title">BenchPilot: Repeatable &amp; Reproducible Benchmarking for Edge Micro-DCs <span class="award">Best Student Paper</span></div>
-          <div class="pub-meta">J. Georgiou, M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; IEEE ISCC 2022</div>
+          <div class="pub-meta">J. Georgiou, M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; 27th IEEE Symposium on Computers and Communications (ISCC 2022)<span class="pub-type pub-type-conf">Conference</span></div>
         </div>
 
         <div class="pub">
-          <div class="pub-title">Fogify: A Fog Computing Emulation Framework <span class="award">Best Demo Award</span></div>
-          <div class="pub-meta">M. Symeonides, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; ACM/IEEE SEC 2020</div>
+          <div class="pub-title">Demo: The RAINBOW Analytics Stack for the Fog Continuum</div>
+          <div class="pub-meta">M. Symeonides, D. Trihinas, J. Georgiou, M. Kasioulis, G. Pallis, M. D. Dikaiakos, T. Toliopoulos, A. V. Michailidou, A. Gounaris &#8212; 27th IEEE Symposium on Computers and Communications (ISCC 2022)<span class="pub-type pub-type-workshop">Demo</span></div>
         </div>
+
+        <div class="pub">
+          <div class="pub-title">Towards Energy Consumption and Carbon Footprint Testing for AI-driven IoT Services</div>
+          <div class="pub-meta">D. Trihinas, L. Thamsen, J. Beilharz, M. Symeonides &#8212; 2nd International Workshop on Testing Distributed Internet of Things Systems, 2022<span class="pub-type pub-type-workshop">Workshop</span></div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">Demo: Emulating 5G-Ready Mobile IoT Services</div>
+          <div class="pub-meta">M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; 7th ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI 2022)<span class="pub-type pub-type-workshop">Demo</span></div>
+        </div>
+
+        <div class="pub-year">2020</div>
+
+        <div class="pub">
+          <div class="pub-title">The ICARUS Ontology: A General Aviation Ontology Developed Using a Multi-Layer Approach</div>
+          <div class="pub-meta">D. Stefanidis, C. Christodoulou, M. Symeonidis, G. Pallis, M. Dikaiakos, L. Pouis, K. Orphanou, F. Lampathaki, D. Alexandrou &#8212; 10th International Conference on Web Intelligence, Mining and Semantics (WIMS 2020)<span class="pub-type pub-type-conf">Conference</span></div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">Fogify: A Fog Computing Emulation Framework</div>
+          <div class="pub-meta">M. Symeonides, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; 5th ACM/IEEE Symposium on Edge Computing (SEC 2020)<span class="pub-type pub-type-conf">Conference</span></div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">Demo: Emulating Geo-Distributed Fog Services <span class="award">Best Demo</span></div>
+          <div class="pub-meta">M. Symeonides, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; 5th ACM/IEEE Symposium on Edge Computing (SEC 2020)<span class="pub-type pub-type-workshop">Demo</span></div>
+        </div>
+
+        <div class="pub-year">2019</div>
 
         <div class="pub">
           <div class="pub-title">Query-Driven Descriptive Analytics for IoT and Edge Computing</div>
-          <div class="pub-meta">M. Symeonides, D. Trihinas, Z. Georgiou, G. Pallis, M. Dikaiakos &#8212; IEEE IC2E 2019</div>
+          <div class="pub-meta">M. Symeonides, D. Trihinas, Z. Georgiou, G. Pallis, M. Dikaiakos &#8212; IEEE International Conference on Cloud Engineering (IC2E 2019)<span class="pub-type pub-type-conf">Conference</span></div>
         </div>
-      </div>
+
+        <div class="pub-year">2018</div>
+
+        <div class="pub">
+          <div class="pub-title">A Query-Driven Framework for Streaming Analytics in Edge Computing</div>
+          <div class="pub-meta">Z. Georgiou, M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; 11th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2018), Zurich, December 2018<span class="pub-type pub-type-conf">Conference</span></div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">PaaSport Semantic Model: An Ontology for a Platform-as-a-Service Semantically Interoperable Marketplace</div>
+          <div class="pub-meta">N. Bassiliades, M. Symeonidis, P. Gouvas, E. Kontopoulos, G. Meditskos, I. Vlahavas &#8212; Data &amp; Knowledge Engineering, Volume 113, 2018<span class="pub-type pub-type-journal">Journal</span></div>
+        </div>
+
+        <div class="pub-year">2017</div>
+
+        <div class="pub">
+          <div class="pub-title">A Semantic Recommendation Algorithm for the PaaSport Platform-as-a-Service Marketplace</div>
+          <div class="pub-meta">N. Bassiliades, M. Symeonidis, G. Meditskos, E. Kontopoulos, P. Gouvas, I. Vlahavas &#8212; Expert Systems with Applications, Volume 67, 2017<span class="pub-type pub-type-journal">Journal</span></div>
+        </div>
+
+      </div><!-- /pub-more -->
 
       <button id="pub-toggle" onclick="togglePubs()" style="
         margin-top:.75rem;
@@ -658,7 +768,7 @@
         <svg id="pub-chevron" viewBox="0 0 16 16" style="width:13px;height:13px;fill:currentColor;transition:transform .35s ease;">
           <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
         </svg>
-        <span id="pub-label">Show all publications</span>
+        <span id="pub-label">Show all 26 publications</span>
       </button>
     </section>
 
