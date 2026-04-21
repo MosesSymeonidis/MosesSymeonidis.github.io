@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Moysis Symeonides | Researcher & Software Architect</title>
+  <title>Moysis Symeonides | Senior Researcher & Technical Coordinator</title>
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -278,6 +278,8 @@
       color: var(--muted);
     }
 
+    #pub-toggle:hover { border-color: var(--accent); }
+
     @media (max-width: 600px) {
       .hero { flex-direction: column; text-align: center; gap: 1.5rem; }
       .badges { justify-content: center; }
@@ -301,7 +303,7 @@
     <img class="avatar" src="photo.jpeg" alt="Moysis Symeonides" />
     <div class="hero-text">
       <h1>Moysis Symeonides</h1>
-      <div class="role">Postdoctoral Researcher &amp; Software Architect</div>
+      <div class="role">Senior Researcher &amp; Technical Coordinator</div>
       <div class="location">&#128205; Nicosia, Cyprus</div>
       <div class="badges">
         <a class="badge" href="https://github.com/MosesSymeonidis" target="_blank">
@@ -333,7 +335,7 @@
     <section id="about">
       <div class="section-title">About</div>
       <p>
-        I am a Postdoctoral Fellow and Software Architect at the Laboratory for Internet Computing (LInC) at the
+        I am a Senior Researcher and Technical Coordinator at the Laboratory for Internet Computing (LInC) at the
         University of Cyprus, where I focus on distributed systems, Big Data Analytics, Edge Computing, and the
         Internet of Things. I hold a PhD in Computer Science (UCY, 2022), with a dissertation on emulating
         data-intensive IoT applications across the Edge Continuum.
@@ -355,7 +357,7 @@
       <div class="card">
         <div class="card-header">
           <div>
-            <div class="card-title">Postdoctoral Fellow &amp; Technical Coordinator</div>
+            <div class="card-title">Senior Researcher &amp; Technical Coordinator</div>
             <div class="card-subtitle">Laboratory for Internet Computing, University of Cyprus</div>
           </div>
           <div class="card-date">Feb 2023 &#8211; Present</div>
@@ -612,8 +614,9 @@
     </section>
 
     <section id="publications">
-      <div class="section-title">Selected Publications</div>
+      <div class="section-title">Publications</div>
 
+      <!-- 5 most recent always visible -->
       <div class="pub">
         <div class="pub-title">FakeInf: Selective Deep Neural Network Inference for Latency and Energy-Aware Model Serving Pipelines <span class="award">Best Paper</span></div>
         <div class="pub-meta">D. Trihinas, M. Symeonides, N. Cleju, G. Pallis, M. D. Dikaiakos &#8212; IEEE/ACM UCC 2025, Nantes, France</div>
@@ -639,31 +642,47 @@
         <div class="pub-meta">M. Symeonides, D. Trihinas, F. Nikolaidis &#8212; Future Internet, Volume 15, 2023</div>
       </div>
 
-      <div class="pub">
-        <div class="pub-title">SparkEdgeEmu: An Emulation Framework for Edge-Enabled Apache Spark Deployments</div>
-        <div class="pub-meta">M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; Euro-Par 2023, LNCS vol 14100</div>
+      <!-- accordion: older publications hidden by default -->
+      <div id="pub-more" style="overflow:hidden;max-height:0;transition:max-height .5s ease;">
+        <div class="pub">
+          <div class="pub-title">SparkEdgeEmu: An Emulation Framework for Edge-Enabled Apache Spark Deployments</div>
+          <div class="pub-meta">M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; Euro-Par 2023, LNCS vol 14100</div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">5G-Slicer: An emulator for mobile IoT applications deployed over 5G network slices <span class="award">Best Paper</span></div>
+          <div class="pub-meta">M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos, C. Psomas, I. Krikidis &#8212; ACM/IEEE IoTDI 2022</div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">BenchPilot: Repeatable &amp; Reproducible Benchmarking for Edge Micro-DCs <span class="award">Best Student Paper</span></div>
+          <div class="pub-meta">J. Georgiou, M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; IEEE ISCC 2022</div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">Fogify: A Fog Computing Emulation Framework <span class="award">Best Demo Award</span></div>
+          <div class="pub-meta">M. Symeonides, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; ACM/IEEE SEC 2020</div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">Query-Driven Descriptive Analytics for IoT and Edge Computing</div>
+          <div class="pub-meta">M. Symeonides, D. Trihinas, Z. Georgiou, G. Pallis, M. Dikaiakos &#8212; IEEE IC2E 2019</div>
+        </div>
       </div>
 
-      <div class="pub">
-        <div class="pub-title">5G-Slicer: An emulator for mobile IoT applications deployed over 5G network slices <span class="award">Best Paper</span></div>
-        <div class="pub-meta">M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos, C. Psomas, I. Krikidis &#8212; ACM/IEEE IoTDI 2022</div>
-      </div>
-
-      <div class="pub">
-        <div class="pub-title">BenchPilot: Repeatable &amp; Reproducible Benchmarking for Edge Micro-DCs <span class="award">Best Student Paper</span></div>
-        <div class="pub-meta">J. Georgiou, M. Symeonides, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; IEEE ISCC 2022</div>
-      </div>
-
-      <div class="pub">
-        <div class="pub-title">Fogify: A Fog Computing Emulation Framework <span class="award">Best Demo Award</span></div>
-        <div class="pub-meta">M. Symeonides, Z. Georgiou, D. Trihinas, G. Pallis, M. D. Dikaiakos &#8212; ACM/IEEE SEC 2020</div>
-      </div>
-
-      <div class="pub">
-        <div class="pub-title">Query-Driven Descriptive Analytics for IoT and Edge Computing</div>
-        <div class="pub-meta">M. Symeonides, D. Trihinas, Z. Georgiou, G. Pallis, M. Dikaiakos &#8212; IEEE IC2E 2019</div>
-      </div>
-
+      <button id="pub-toggle" onclick="togglePubs()" style="
+        margin-top:.75rem;
+        display:flex;align-items:center;gap:.5rem;
+        background:none;border:1px solid var(--border);
+        border-radius:8px;padding:.5rem 1.1rem;
+        font-size:.82rem;color:var(--accent);cursor:pointer;
+        transition:border-color .2s,color .2s;
+      ">
+        <svg id="pub-chevron" viewBox="0 0 16 16" style="width:13px;height:13px;fill:currentColor;transition:transform .35s ease;">
+          <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
+        <span id="pub-label">Show all publications</span>
+      </button>
     </section>
 
     <section id="awards">
@@ -718,5 +737,22 @@
     &copy; 2026 Moysis Symeonides &#8212; Nicosia, Cyprus
   </footer>
 
+  <script>
+    function togglePubs() {
+      var panel = document.getElementById('pub-more');
+      var label = document.getElementById('pub-label');
+      var chevron = document.getElementById('pub-chevron');
+      var open = panel.style.maxHeight !== '0px' && panel.style.maxHeight !== '';
+      if (open) {
+        panel.style.maxHeight = '0';
+        label.textContent = 'Show all publications';
+        chevron.style.transform = 'rotate(0deg)';
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+        label.textContent = 'Show fewer publications';
+        chevron.style.transform = 'rotate(180deg)';
+      }
+    }
+  </script>
 </body>
 </html>
