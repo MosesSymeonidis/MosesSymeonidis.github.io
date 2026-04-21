@@ -8,14 +8,14 @@
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
     :root {
-      --bg:       #020408;
-      --surface:  #080c12;
-      --border:   #151b24;
-      --accent:   #7c83fd;
-      --accent2:  #a78bfa;
-      --text:     #e6edf3;
-      --muted:    #8b949e;
-      --green:    #3fb950;
+      --bg:       #f5f7fa;
+      --surface:  #ffffff;
+      --border:   #dde2ea;
+      --accent:   #4f52c8;
+      --accent2:  #7c3aed;
+      --text:     #1a1f2e;
+      --muted:    #64748b;
+      --green:    #16a34a;
     }
 
     html { scroll-behavior: smooth; }
@@ -32,7 +32,7 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(2,4,8,.95);
+      background: rgba(245,247,250,.95);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
       display: flex;
@@ -65,7 +65,7 @@
       height: 140px;
       border-radius: 50%;
       flex-shrink: 0;
-      box-shadow: 0 0 0 4px var(--border), 0 0 40px rgba(124,131,253,.25);
+      box-shadow: 0 0 0 4px var(--border), 0 4px 20px rgba(0,0,0,.1);
       object-fit: cover;
     }
     .hero-text h1 {
@@ -126,7 +126,7 @@
       height: 1px;
       background: var(--border);
     }
-    p { color: #c9d1d9; }
+    p { color: #374151; }
 
     /* STATS */
     .stats {
@@ -166,7 +166,7 @@
     .card-title { font-weight: 700; font-size: 1rem; }
     .card-subtitle { color: var(--muted); font-size: .85rem; }
     .card-date { font-size: .78rem; color: var(--muted); white-space: nowrap; padding-top: .1rem; }
-    .card p { font-size: .9rem; margin-top: .5rem; }
+    .card p { font-size: .9rem; margin-top: .5rem; color: #374151; }
 
     /* TAGS */
     .tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .75rem; }
@@ -174,9 +174,9 @@
       font-size: .73rem;
       padding: .2rem .65rem;
       border-radius: 4px;
-      background: rgba(124,131,253,.1);
-      color: var(--accent2);
-      border: 1px solid rgba(124,131,253,.2);
+      background: rgba(79,82,200,.08);
+      color: var(--accent);
+      border: 1px solid rgba(79,82,200,.2);
     }
 
     /* AWARD PILL */
@@ -218,7 +218,7 @@
       background: var(--bg);
       border: 1px solid var(--border);
       border-radius: 4px;
-      color: #c9d1d9;
+      color: #374151;
     }
 
     /* PUBLICATIONS */
@@ -254,7 +254,7 @@
     .tl-item .degree { font-weight: 700; }
     .tl-item .school { color: var(--muted); font-size: .875rem; }
     .tl-item .period { font-size: .78rem; color: var(--muted); margin-bottom: .2rem; }
-    .tl-item .thesis { font-size: .85rem; color: #8b949e; font-style: italic; margin-top: .25rem; }
+    .tl-item .thesis { font-size: .85rem; color: #64748b; font-style: italic; margin-top: .25rem; }
 
     /* AWARDS */
     .award-item {
@@ -298,7 +298,7 @@
   </nav>
 
   <div class="hero">
-    <img class="avatar" src="https://avatars.githubusercontent.com/u/9702850?v=4" alt="Moysis Symeonides" />
+    <img class="avatar" src="photo.jpeg" alt="Moysis Symeonides" />
     <div class="hero-text">
       <h1>Moysis Symeonides</h1>
       <div class="role">Postdoctoral Researcher &amp; Software Architect</div>
