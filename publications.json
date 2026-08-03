@@ -1,5 +1,45 @@
 [
   {
+    "year": 2026,
+    "title": "InFactPlanner: Planning Sustainable Geo-Distributed LLM Data Centers",
+    "authors": "N. Tsiopani, M. Symeonides, G. Pallis, M. D. Dikaiakos",
+    "venue": "IEEE International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS 2026)",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2026,
+    "title": "MCP-GRANITE Benchmark: GRANularity Interface TEsting for MCP-Based LLM Agents",
+    "authors": "D. Paschalides, M. Symeonides, G. Pallis, M. D. Dikaiakos",
+    "venue": "IEEE International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS 2026)",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2026,
+    "title": "A Microservice-based Architecture for Reproducible AI Pipelines",
+    "authors": "M. Symeonides, J. Georgiou, G. Pallis, M. D. Dikaiakos, D. Bouras, K. Perakis, A. Grilo, C. Agostinho",
+    "venue": "Proceedings of the 32nd IEEE/ITCM International Conference on Engineering, Technology and Innovation (ICE '26), 2026",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2026,
+    "title": "Evaluating Accuracy and Probabilistic Reliability of Zero-Shot Time Series Foundation Models",
+    "authors": "P. Michael, M. Symeonides, D. Trihinas",
+    "venue": "Proceedings of the Advances in Databases and Information Systems, 30th European Conference, ADBIS 2026",
+    "type": "conference",
+    "awards": []
+  },
+  {
+    "year": 2026,
+    "title": "EdgeTraffic: An EdgeAI Dataset Integrating Road Traffic Dynamics with System Telemetry",
+    "authors": "M. Symeonides, D. Trihinas, N. Cleju",
+    "venue": "Proceedings of the 4th International Workshop on Testing Distributed Internet of Things Systems (TDIS '26), 2026",
+    "type": "workshop",
+    "awards": []
+  },
+  {
     "year": 2025,
     "title": "FakeInf: Selective Deep Neural Network Inference for Latency and Energy-Aware Model Serving Pipelines",
     "authors": "D. Trihinas, M. Symeonides, N. Cleju, G. Pallis, M. D. Dikaiakos",
